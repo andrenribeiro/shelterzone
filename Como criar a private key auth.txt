@@ -1,0 +1,7 @@
+1.No console da AWS, procure na barra de serviços por IAM.
+2.No dashboard IAM, clique em Users
+3.Clique em Add User para criar um novo usuario
+OBS: Tipo de acesso AWS - Programmatic access
+4.Será necessário criar um grupo de permissão
+5.Selecione o seu grupo e prossiga até que a AWS lhe forneça a Access
+Key ID e a Secret access key! 

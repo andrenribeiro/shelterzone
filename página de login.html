@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login- ShelterZone</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="<link rel=" preconnect"="">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&amp;display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="logo2.png">
+  </head>
+
+  <body> 
+
+
+    <section class="area-login">
+      <div class="login">
+        <img src="logo.png">
+        <form>
+          <input type="email" nome="email" placeholder="Usuário" autofocus="" id="login">
+          <input type="password" nome="senha" placeholder="Senha" id="senha"
+          minlength="4"
+          maxlength="14"
+          >   
+        </form>
+
+        <div class="button">
+          <button type="button" onclick="Entrar()">ENTRAR</button>
+        </div>
+        <script> 
+        function Entrar(){
+                var login = document.getElementById('login').value;
+                var senha = document.getElementById('senha').value;
+
+                if(login == 'shelter' && senha == 'zone'){
+                  window.location.href='poslogin.html';
+                }else{
+                    alert('Usuario ou senha incorretos');
+                }
+}
+
+        </script>
+
+        <p>Ainda não recebeu seu usuário?<a href="Padrao.html"> Clique aqui</a></p>
+      </div>
+    </section>
+
+
+    <script src="./index.js"></script>
+
+  </body>
+
+</html>

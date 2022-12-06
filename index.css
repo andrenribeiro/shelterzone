@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  background-image: linear-gradient(to right, #606066, #072768);
+  font-size: 15px;
+  overflow: hidden;
+  }
+
+.area-login{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+} 
+
+.login{
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f1122;
+  width: 355px;
+  height: 325px;
+  padding: 35px;
+}
+
+.login form{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.login input{
+  font-family: 'comfortaa';
+  margin-bottom: 6px;
+  margin-top: 9px;
+  background: #193264;
+  color: #CBD0F7;
+  padding-left: 9px;
+  border: none;
+  height: 45px;
+  outline: none;
+  border-radius: 7px;
+}
+
+.login img{
+  height: 7em;
+  margin-bottom: 1.5em;
+  right: 50%;
+
+}
+
+input::placeholder{
+  color: #CBD0F7;
+  font-size: 14px;
+}
+
+p {
+  margin-top: 19px;
+  color: #CBD0F7;
+  font-family: 'comfortaa';
+  font-size: 14px;
+}
+
+a{
+  color: #a3b4ca;
+  text-decoration: none;
+  font-family: 'comfortaa';
+}
+
+button {
+  font-weight: bold;
+  color: black;
+  display: block;
+  background-color: #a3b4ca;
+  font-size: 21px;
+  padding: 14px;
+  width: 355px;
+  outline: none;
+  margin-top: 11px;
+  cursor: pointer;
+  display: block;
+  border-radius: 7px;
+  border: none;
+}
+
+h1 {
+  margin-right: 250px;
+  margin-top: 0px;
+  color: #a3b4ca;
+}
